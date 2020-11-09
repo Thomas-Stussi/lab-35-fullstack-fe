@@ -19,12 +19,12 @@ export default function App() {
           <Route
             path="/"
             exact
-            render={<MyCalendar />}
+            render={() => <MyCalendar />}
           />
           <Route 
             path="/form"
             exact
-            render={<Form />}
+            render={() => <Form />}
           />
         </Switch>
       </Router>
